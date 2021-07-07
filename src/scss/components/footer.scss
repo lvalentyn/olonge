@@ -1,20 +1,32 @@
 .footer {
+    padding: 30px;
     display: flex;
-    padding: 35px 0;
-    background-color: #000;
-    text-align: center;
-    @media (max-width: $md3 + px) {
-        flex-direction: column;
-        row-gap: 10px;
-    }
-    &__text {
+    align-items: center;
+    
+    &__item {
+        text-align: center;
         flex-basis: 100%;
-        font-size: 1.8rem;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+    }
+    &__logo {
+        height: 78px;
+        margin: 0 auto;
     }
     &__link {
-        color:#2690d4;
-        &:hover {
-            text-decoration:underline;
+        svg{
+            path {
+                fill: #red;
+            }
+            &:hover {
+                path {
+                    fill: #252b42;
+                }
+            }
         }
     }
 }
