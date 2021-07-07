@@ -1,0 +1,15 @@
+// @import "fonts";
+@import "resetcss";
+@import "variables";
+@import "animations";
+/* global-style */
+@import "global";
+
+/* global-style : end */
+
+/* styles of templates */
+@import "components/header";
+@import "components/tels";
+@import "components/footer";
+
+/* styles of templates : end */

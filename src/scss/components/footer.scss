@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    padding: 35px 0;
+    background-color: #000;
+    text-align: center;
+    @media (max-width: $md3 + px) {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    &__text {
+        flex-basis: 100%;
+        font-size: 1.8rem;
+    }
+    &__link {
+        color:#2690d4;
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+}

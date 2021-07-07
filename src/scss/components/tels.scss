@@ -1,0 +1,26 @@
+.tels {
+    position: relative;
+    padding: 660px 0 0;
+    &__img {
+        position: absolute;
+        &_left {
+            top: -120px;
+            left: calc(50% - 160px);
+            transform: translateX(-50%);
+            height: 586px;
+            filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+            z-index: 3;
+        }
+        &_right {
+            top: -30px;
+            left: calc(50% + 75px);
+            transform: translateX(-50%);
+            height: 531px;
+            z-index: 2;
+        }
+    }
+    &__line {
+        width: 95%;
+        border: 3px solid #E4E4E4;
+    }
+}
